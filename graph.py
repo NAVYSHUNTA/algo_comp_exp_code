@@ -6,6 +6,9 @@ import numpy as np
 import japanize_matplotlib
 
 
+# フォントサイズを設定
+plt.rcParams['font.size'] = 15
+
 # SR1, SR2, SR3 の比較
 data1 = np.loadtxt('output1.txt', skiprows=2, delimiter=',')
 data2 = np.loadtxt('output2.txt', skiprows=2, delimiter=',')
@@ -18,6 +21,7 @@ plt.plot(data3[:,0], data3[:,1], label='SR3', color='blue')
 plt.xlabel('x の値') # x 軸のラベル
 plt.ylabel('処理時間 [μs]') # y 軸のラベル
 plt.legend() # 凡例を表示
+plt.tight_layout()
 plt.show()
 
 # SR2, SR3 の比較
@@ -30,4 +34,5 @@ plt.plot(bigdata3[:,0], bigdata3[:,1], label='SR3', color='blue')
 plt.xlabel('x の値') # x 軸のラベル
 plt.ylabel('処理時間 [μs]') # y 軸のラベル
 plt.legend() # 凡例を表示
+plt.tight_layout()
 plt.show()
