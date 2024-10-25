@@ -15,6 +15,10 @@ fn main() {
     print_experiment_result(INPUT_MAX_X, Algorithm::SR1);
     // print_experiment_result(INPUT_MAX_X, Algorithm::SR2);
     // print_experiment_result(INPUT_MAX_X, Algorithm::SR3);
+
+    // 以下のコメントアウトを外して、各アルゴリズムの実験結果を表示（大きな入力値）
+    // print_experiment_result(50 * INPUT_MAX_X, Algorithm::SR2);
+    // print_experiment_result(50 * INPUT_MAX_X, Algorithm::SR3);
 }
 
 pub fn print_experiment_result(max_x: i128, select_algorithm: Algorithm) {
