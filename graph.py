@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 次のコマンドで日本語フォントをインストール（グラフ内にある日本語を文字化けしないように表示）
+# 次のコマンドで日本語フォントをインストール（グラフにある日本語が文字化けしないように表示）
 # pip install japanize-matplotlib
 import japanize_matplotlib
 
