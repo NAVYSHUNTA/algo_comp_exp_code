@@ -1,2 +1,2 @@
-# algo_comp_exp_code
+# algo_comp_exp_code1
 アルゴリズムと計算量特論の実験レポートで用いるプログラムのコード
