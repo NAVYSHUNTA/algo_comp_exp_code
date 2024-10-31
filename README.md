@@ -22,7 +22,7 @@ Rust 言語のプログラムを実行するためには, 事前に `cargo` を�
 </pre>
 
 - `./src/lib.rs` : Rust 言語で $3$ つのアルゴリズム SR1, SR2, SR3 を関数として実装したもの.
-- `./src/main.rs` : アルゴリズムの処理時間の計測（実験）. 実験結果は `output1.txt` 等である（ `cargo run > output1.txt` で実行）.
+- `./src/main.rs` : アルゴリズムの処理時間の計測（実験）を行うコード. 実験結果は `output1.txt` 等である（ `cargo run > output1.txt` で実行）.
 - `./tests/lib_test.rs` : `lib.rs` で実装した関数が正しいかのテストを行うテストコード（ `cargo test` でテスト実行）.
 - `./graph.py` : Rust 言語で実装した各アルゴリズムの処理時間をグラフ化するための Python 言語のコード（`python graph.py` で実行）.
 - `./output1.txt` : SR1 の処理時間 $($ 入力値 $x$ の範囲 : $1 \le x \le 1000)$
