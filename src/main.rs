@@ -1,6 +1,6 @@
 use cpu_time::ProcessTime; // https://crates.io/crates/cpu-time
 use std::time::Duration;
-use algo_comp_exp_code::*;
+use algo_comp_exp_code1::*;
 
 // エントリーポイント
 fn main() {

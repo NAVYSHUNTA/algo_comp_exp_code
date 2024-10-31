@@ -1,4 +1,4 @@
-use algo_comp_exp_code::*;
+use algo_comp_exp_code1::*;
 
 // アルゴリズム SR1 の単体テスト
 #[test]
